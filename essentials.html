@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    
+    <div class="navBarContainerLeft">
+        <a class="button AccentCHover" href="/index.html">
+            <span class="buttonText">
+                1st Page
+            </span>
+            <span class="buttonIcon accentColorC">></span>
+        </a>
+        <a class="button AccentPHover" href="/2ndpage.html">
+            <span class="buttonText">
+                2nd Page
+            </span>
+            <span class="buttonIcon accentColorP">></span>
+        </a>
+    </div>
+
+    <div class="navBarContainerCenter">
+        <a class="accentColor">
+            <img src="resources/images/logo_large.png" width="65px">
+        </a>
+    </div>
+
+    <div class="navBarContainerRight">
+        <a class="button AccentRHover" href="/legal.html">
+            <span class="buttonText">
+                Legalities
+            </span>
+            <span class="buttonIcon accentColorR">></span>
+        </a>
+        <a class="button AccentGHover" href="/application.php">
+            <span class="buttonText">
+                Applications
+            </span>
+            <span class="buttonIcon accentColorG">></span>
+        </a>
+    </div>
+
+    <script>
+        button = document.querySelector('.button');
+
+        button.addEventListener('mouseup', function(){
+        this.classList.add('active');
+        setTimeout(function () {
+        button.classList.remove('active');
+       }, 300);
+       });
+    </script>
+
+
+</html>

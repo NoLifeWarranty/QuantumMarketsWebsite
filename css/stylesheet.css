@@ -1,0 +1,156 @@
+/*INFO:
+* Original Code written by Maximillian Ovesen
+* Unlicensed
+* 2021 - 2021
+*/
+
+
+/*REFERENCES FOR ALL MY CSS.
+*
+* ctrl + shift + i to inspect element and see a websites code
+* I did that a lot specifically from here https://www.avalabs.org/
+* I based My website off of here - its where I got the notion to put flex boxes in everything
+* no code was copied fr mthere though - Still as thes basis of how I built my site I thought I would
+* reference it.
+* No code has been directly copied from anywhere unless referenced so-
+* I basically lived on this site https://www.w3schools.com/css/default.asp
+*/
+
+
+/*________ Font/Colors Setting ________
+https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp
+*/ 
+@font-face{
+    font-family: Comforta-Regular;
+    src: url("/resources/font/Comfortaa-Regular.ttf");
+}
+@font-face{
+    font-family: Kiona-Regular;
+    src: url("/resources/font/Kiona-Regular.ttf");
+}
+/*https://www.w3schools.com/css/css3_variables.asp*/
+:root{
+
+    --accentColorN: #282d7f;
+    --accentColorY: #d0973d;
+    --accentColorC: #ae1f23;
+    --accentColorP: #7030A0;
+    --accentColorR: #555; 
+    --backgroundColor: #101317;
+    --lightBackgroundColor: #181818;
+    --foregroundColor: #efefef;
+}
+
+/*________ Setting basic values of the website ________*/
+body, html{
+    font-family: Comforta-Regular;
+    background-color: #101317;
+    color: #efefef;
+    
+    height: 100%;
+    margin: 0%;
+    text-align: center;
+}
+
+.bg {
+    /* The image used */
+    background-image: url('https://cdn.discordapp.com/attachments/642134499689496577/839577649529225226/newPicture.jpg');
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    
+
+  }
+
+/*https://www.w3schools.com/cssref/sel_hover.asp
+https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp*/
+.hoverGlow:hover{
+    color: var(--accentColor);
+    text-shadow: 0px 0px 5px var(--accentColor);
+    text-decoration: none;
+}
+
+/*________ Fots/Colors/Texts/Titles/Etc ________*/
+
+.textAlignCenter{
+    text-align: center;
+}
+.textAlignLeft{
+    text-align: left;
+}
+.textAlignRight{
+    text-align: right;
+}
+.paragraph{
+    max-width: 970px;
+    line-height: 25px;
+    display: block;
+    font-size: 18px;
+    font-family: Comforta-Regular;
+}
+.titleLarge{
+    padding: 10px;
+    display: block;
+    font-size: 50px;
+    font-family: Kiona-Regular;
+}
+.titleMedium{
+    padding: 10px;
+    display: block;
+    font-size: 42px;
+    font-family: Kiona-Regular;
+}
+.titleSmall{
+    line-height: 25px;
+    display: block;
+    font-size: 18px;
+    font-family: Comforta-Regular;
+}
+.accentColorC{
+    color: var(--accentColorC);
+}
+.accentColorY{
+    color: var(--accentColorY);
+}
+.accentColorP{
+    color: var(--accentColorP);
+}
+.accentColorG{
+    color: var(--accentColorG);
+}
+.accentColorR{
+    color: var(--accentColorR);
+}
+
+
+
+/*particles js thingy
+I READ THE README AND 
+SPENT A DUMB AMOUNT OF TIME ON THIS
+*/
+#QoneParticles canvas{
+    display: block;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+#QoneParticles{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0
+}
+

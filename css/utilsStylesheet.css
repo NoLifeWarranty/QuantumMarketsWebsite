@@ -1,0 +1,141 @@
+/*INFO:
+* Original Code written by Maximillian Ovesen
+* Unlicensed
+* 2021 - 2021
+*/
+
+.navBar{
+    position: relative;
+    display: flex;
+
+    width: 100%;
+    height: auto;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    align-self: flex-start;
+    align-items: center;
+
+    height: 2cm;
+
+    background-color: var(--backgroundColor);
+    box-shadow: 0px 0px 5px black;
+
+    z-index: 5;
+}
+
+.navBarContainerCenter{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.navBarContainerLeft{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.navBarContainerRight{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*________ FOOTER STUFF ________*/
+.socialsFooter{
+    display: flex;
+    position: relative;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    align-items: center;
+
+    
+
+    width: 100%;
+    min-height: 50px;
+
+    background-color: var(--backgroundColor);
+    z-index: 4;
+}
+
+.socialsIcon {
+    width: 13px;
+}
+
+/*    Session 8 help me with this but I cant remember  */
+.inputBoxContainer {
+    text-align: center; 
+    justify-content: center;
+
+
+    width: 100%;
+    margin-left: 10%;
+    width: 220px;
+    height: 20px;
+
+    position: relative;
+
+    border: 2px solid var(--lightBackgroundColor);
+    border-radius: 4px;
+}
+
+/*https://www.youtube.com/watch?v=6NdWrZ77YO4&t=313s*/
+
+.inputBoxContainer[data-error] .inputBox {
+
+    border: 2px solid var(--accentColorR);
+    color: var(--accentColorR);
+}
+
+.inputBoxContainer[data-error] .inputBox::after {
+    content: attr(data-error);
+    color: var(--accentColorR);
+}
+/*
+    If the user inputs something valid this invisible border should swap to red
+    Sadly I havnt got the database to read & write
+    filezilla really is a !/|\*%!*!%
+*/
+.inputBox  {
+    border: 2px solid var(--lightBackgroundColor);
+    border-radius: 4px;
+}
+
+
+
+
+@media(max-width: 1300px)
+{
+    .navBarContainerLeft {
+        size: 4%;
+    }
+    .navBarContainerRight {
+        size: 20%;
+    }
+    .inputBoxContainer {
+        width: auto;
+    }
+
+    .inputBoxContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 80%;
+    }
+}
+
+
+@media(max-width: 700px)
+{
+    .inputBoxContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 80%;
+    }
+}
