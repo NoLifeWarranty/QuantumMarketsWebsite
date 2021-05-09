@@ -23,8 +23,8 @@
 
     height: 2cm;
 
-    background-color: rgba(rgb(15, 15, 15), green, blue, 10);
-    box-shadow: 0px 0px 5px white;
+    background-color: var(--backgroundColor);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
 
     z-index: 5;
 }
