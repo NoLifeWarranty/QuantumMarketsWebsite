@@ -23,8 +23,9 @@
 
     height: 2cm;
 
-    background-color: rgba(rgb(15, 15, 15), green, blue, 10);
-    box-shadow: 0px 0px 5px white;
+    background-color: var(--backgroundColor);
+
+    box-shadow: 0px 0px 5px black;
 
     z-index: 5;
 }
@@ -48,38 +49,17 @@
 
 /*________ FOOTER STUFF ________*/
 .socialsFooter{
-
     display: flex;
+
     align-items: center;
-    justify-content: center;
 
-    margin-bottom: 25px;
-
+    
     width: 100%;
-    height: 200px;
+    height: 150px;
 
-    background-color: #0a0c0f;
-
+    background-color: var(--backgroundColor);
+    box-shadow: 0px 0px 5px black;
     z-index: 4;
-}
-
-.innerFooter{
-    transition-duration: 0.1s;
-
-    border-radius: 5px;
-
-    width: 95%;
-    height: 90%;
-
-    align-self: center;
-
-    box-shadow: -2px 2px 0px var(--accentColorC);
-    background-color: #101317;   
-}
-.innerFooter:hover{
-    box-shadow: -3px 3px 0px var(--accentColorN);
-    transition-duration: 0.1s;
-    background-color: #101317;   
 }
 
 .socialsIcon {
