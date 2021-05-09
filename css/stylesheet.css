@@ -57,7 +57,7 @@ body{
 }
 
 .bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/resources/images/STS.png");
+    background-image: url("/resources/images/STS.png");
 
   /* Set a specific height */
   height: 100%;
