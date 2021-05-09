@@ -6,49 +6,76 @@
 
 
 /*https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
-.button {
+.leftButton {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 15px;
+  padding: 5px 45px;
+  padding-bottom: 1px;
   margin: 10px;
   color: #ffffff;
-  border-radius: 40px;
+  border-top-style: none;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
   border-style: solid;
-  border-width: 2px;
-  border-color: #ffffff;
+  border-width: 1.5px;
+  border-color: #ae1f23;
   border-style: solid;
-  background-color: #00000000;
+  background-color: #101317;
   cursor: pointer;
   user-select: none;
   text-decoration: none;
 }
+.rightButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 45px;
+  padding-bottom: 1px;
+  margin: 10px;
+  color: #ffffff;
+  border-top-style: none;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #ae1f23;
+  border-style: solid;
+  background-color: #101317;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+
 .buttonText {
   position: relative;
   margin-right: 12px;
   transition: ease-in-out 0.18s;
   z-index: 2;
+  min-width: 140px;
 }
 .buttonIcon {
   color: var(--accentColor);
   position: relative;
   transition: ease-in-out 0.18s;
   z-index: 2;
+  
 }
-.button:before {
+.leftButton:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: #ffffff00;
   opacity: 0.5;
-  border-color: #ffffff;
+  border-color: #ffffff00;
   border-radius: 20px;
   border-width: 5px;
   z-index: -1;
 }
-.button:after {
+.leftButton:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -63,33 +90,74 @@
   border-radius: 20px;
 }
 
+.rightButton:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff00;
+  opacity: 0.5;
+  border-color: #ffffff00;
+  border-radius: 20px;
+  border-width: 5px;
+  z-index: -1;
+}
+.rightButton:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff00;
+  z-index: 1;
+  transition: ease-in-out 0.18s;
+  transform-origin: center left;
+  transform: scaleX(0);
+  border-color: #000000;
+  border-width: 5px;
+  border-radius: 20px;
+}
+
+.AccentNHover:hover {
+  transition: 0.1s;
+  border-color: var(--accentColorN);
+}
+.AccentYHover:hover {
+  transition: 0.1s;
+  border-color: var(--accentColorY);
+}
 .AccentCHover:hover {
   transition: 0.1s;
   border-color: var(--accentColorC);
-}
-.AccentPHover:hover {
-  transition: 0.1s;
-  border-color: var(--accentColorP);
-}
-.AccentGHover:hover {
-  transition: 0.1s;
-  border-color: var(--accentColorG);
 }
 .AccentRHover:hover {
   transition: 0.1s;
   border-color: var(--accentColorR);
 }
 
-.button:hover:after {
+.leftButton:hover:after {
   transform-origin: center right;
   transform: scaleX(1);
   border-color: #ffffff;
 }
-.button:hover .buttonIcon {
+.leftButton:hover .buttonIcon {
+  transition: 0.4s;
+  transform: translate3d(-12px, 0px, 0px);
+  opacity: 0;
+}
+.leftButton:hover .buttonText {
+  transform: translate3d(-12px, 0px, 0px);
+}
+
+.rightButton:hover:after {
+  transform-origin: center right;
+  transform: scaleX(1);
+  border-color: #ffffff;
+}
+.rightButton:hover .buttonIcon {
   transition: 0.4s;
   transform: translate3d(12px, 0px, 0px);
   opacity: 0;
 }
-.button:hover .buttonText {
+.rightButton:hover .buttonText {
   transform: translate3d(12px, 0px, 0px);
 }
