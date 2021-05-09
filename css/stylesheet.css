@@ -50,6 +50,10 @@ body, html{
     height: 100%;
     margin: 0px;
     text-align: center;
+
+}
+body{
+    padding-bottom: 150px;
 }
 
 .bg {
@@ -89,18 +93,21 @@ https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp*/
     font-family: Comforta-Regular;
 }
 .titleLarge{
+    width: 100%;
     padding: 10px;
     display: block;
     font-size: 50px;
     font-family: Kiona-Regular;
 }
 .titleMedium{
+    width: 100%;
     padding: 10px;
     display: block;
     font-size: 42px;
     font-family: Kiona-Regular;
 }
 .titleSmall{
+    width: 100%;
     line-height: 25px;
     display: block;
     font-size: 18px;

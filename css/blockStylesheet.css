@@ -20,13 +20,31 @@
 }
 
 .innerFlexContainer{
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: row;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-wrap: wrap;
+
     width: 100%;
-    margin: 40px;
-    height: 90%;
-    /* Full height */
-    background-image: url('http://www.baltana.com/files/wallpapers-2/Tanker-Ship-Background-Wallpaper-08526.jpg');
+    margin: 0px;
+    height: 50%;
+
+    -webkit-mask-size: cover;
+    -webkit-mask-position: 100%;
+    -webkit-mask-repeat: repeat-x;
+
+    mask-size: cover;
+    mask-position: 100%;
+    mask-repeat: repeat-x;
+
     /* Center and scale the image nicely */
-    background-position: center;
+    background-position: 50%;
     background-repeat: no-repeat;
     background-size:cover;
 
@@ -42,11 +60,9 @@
 
 .flexDirRow{
     flex-direction: row;
-    width: 50%;
 }
 .flexDirColumn{
     flex-direction: column;
-    width: 50%;
 }
 
 .flexCenter{
@@ -86,6 +102,15 @@
 .contentBoxVertical:hover{
     transition-duration: 0.2s;
     transform: translate3d(0px, -15px, 0px);
+}
+
+
+.contentBox{
+    margin: 10px;
+    padding: 15px;
+
+    box-shadow: -0px 0px 7px black;
+    background-color: var(--backgroundColor);
 }
 
 .applicationBoxSizing {
