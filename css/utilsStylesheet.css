@@ -7,7 +7,7 @@
 .navBar{
     padding-top: 5px;
     padding-bottom: 5px;
-    position: relative;
+    position: fixed;
     display: flex;
 
     width: 100%;
