@@ -4,7 +4,8 @@
 <html land="en">
 
 <head>
-    <meta name="Quantum Markets" content="width-device-width, initial-scale=1">
+    <meta name="Quantum Markets" content="Quantum Markets LTD - ‘’Tailor-made Brokerage & Shipping – Trading – Operational
+Support for our Clients in Oil Trading & Tanker Industry’">
     <meta charset="utf-8">
 
 
@@ -27,7 +28,7 @@
 </head>
 
 <link rel="shortcut icon" href="https://data.quantum-mar.com/resources/images/logo_large.png" type="image/x-icon">
-<title>Home</title>
+<title>About</title>
 
 <body>
 
