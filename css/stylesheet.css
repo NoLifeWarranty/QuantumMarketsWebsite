@@ -22,11 +22,11 @@ https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp
 */ 
 @font-face{
     font-family: Comforta-Regular;
-    src: url("/resources/font/Comfortaa-Regular.ttf");
+    src: url(/resources/fonts/Comfortaa-Regular.ttf);
 }
 @font-face{
     font-family: Kiona-Regular;
-    src: url("/resources/font/Kiona-Regular.ttf");
+    src: url(/resources/fonts/Kiona-Regular.ttf);
 }
 /*https://www.w3schools.com/css/css3_variables.asp*/
 :root{

@@ -1,2 +1,0 @@
-The readme in the node_modules.particles.js
-and this video https://www.youtube.com/watch?v=cUzihD4JBQU

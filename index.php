@@ -26,7 +26,7 @@
 
 </head>
 
-<link rel="shortcut icon" href="/resources/images/logo_large.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://data.quantum-mar.com/resources/images/logo_large.png" type="image/x-icon">
 <title>Home</title>
 
 <body>
@@ -38,7 +38,7 @@
 
     <div class="containerFlex flexDirColumn" style="min-height: 100%; min-width: 100%; margin-bottom: 250px;">
 
-        <div  class="innerFlexContainer" style="min-height: 800px; background-image: url('/resources/images/heroShip.png');" >
+        <div  class="innerFlexContainer" style="min-height: 800px; background-image: url('https://data.quantum-mar.com/resources/images/heroShip.png');" >
             <div class="contentBoxTransparent">
                 <p class="accentColorY titleLarge textAlignCenter">
                     QUANTUM MARKETS
@@ -71,7 +71,7 @@
                 </div>
     
                 <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img src="resources/images/gas_tanker.png" alt="Image of a gas tanker" style="width: 700px; height: auto;">
+                    <img src="https://data.quantum-mar.com/resources/images/gas_tanker.png" alt="Image of a gas tanker" style="width: 700px; height: auto;">
                 </div>
             </div>
 

@@ -26,7 +26,7 @@
 
 </head>
 
-<link rel="shortcut icon" href="/resources/images/logo_large.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://data.quantum-mar.com/resources/images/logo_large.png" type="image/x-icon">
 <title>Home</title>
 
 <body>
