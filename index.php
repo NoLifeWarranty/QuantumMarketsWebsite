@@ -46,10 +46,9 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 </p>
                 <p class="paragraph textAlignCenter">
                     QUANTUM MARKETS GROUP is a Specialized Broker & Support Company for Shipping, Trading, Operations & Claims
-                    for Stake-Holders in the Oil & Gas Markets with an Empahsis on Supporting Clients in Developing & Emerging Markets.
+                    for Stake-Holders in the Oil & Gas Markets with an Emphasis on Supporting Clients in Developing & Emerging Markets.
                     <br><br>
-                    QUANTUM MARKETS holds or take no propriatory positions itself but acts totally as arms-length Broker or Consultant
-                    (depending on the appointment) and acts in it’s Appointed Clients Best Interest under Laws of Agency ( UK & US Laws).
+                    
                 </p>
             </div>
         </div>
@@ -61,7 +60,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
                     <p class="paragraph textAlignCenter">
                         QUANTUM MARKETS' strength lies in it’s deep Knowledge, Experience, Intel of the Physical Oil &
-                        Gas Markets and the knowledge of it’s stake-holders incl Shipping & Operations.
+                        Gas Markets and the knowledge and understanding of it’s stake-holders incl Shipping & Operations.
                         <br><br>
                         This gives QUANTUM MARKETS a unique opprtunity to Tailor-Make the Support Strategy & Advise for
                         Clients from Sourcing (or Marketing) to Operation, Shipping & Claims.
@@ -83,7 +82,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
             <div class="contentBox flexLeft">
 
                 <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img src="resources/images/oil_rig.jpg" alt="Image of a gas tanker" style="width: 700px; height: auto;">
+                    <img src="https://data.quantum-mar.com/resources/images/tankyLeft.jpg" alt="Image of a gas tanker" style="width: 700px; height: auto;">
                 </div>
 
                 <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
@@ -96,7 +95,29 @@ Support for our Clients in Oil Trading & Tanker Industry’">
             </div>
         </div>
 
+        <div class="innerFlexContainer flexDirRow" style="width: 100%;">
+
+            <div class="contentBox flexLeft">
+
+                <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
+                    <p class="paragraph textAlignCenter">
+                    QUANTUM MARKETS holds or take no propriatory positions itself but acts totally as arms-length Broker or Consultant
+                    (depending on the appointment) and acts in it’s Appointed Clients Best Interest under Laws of Agency ( UK & US Laws).
+                    </p>
+                </div>
+    
+                <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
+                    <img src="https://data.quantum-mar.com/resources/images/DontPayAttentionToTheNameOfThisImageMyFriend.jpg" alt="Image of a gas tanker" style="width: 700px; height: auto;">
+                </div>
+            </div>
+
+        </div>
+        
+
     </div>
+
+
+    
     
     
 </body>
