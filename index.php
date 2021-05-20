@@ -16,15 +16,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 
 
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="/node_modules/scrollreveal/dist/scrollreveal.min.js"> </script>
-
     <script src="/javaScript/autoLoader.js"> </script>
-    <script src="/javaScript/revealAnimations.js"> </script>
-
-    <script>
-        essentialsLoader();
-    </script>
-
 </head>
 
 <link rel="shortcut icon" href="https://data.quantum-mar.com/resources/images/logo_large.png" type="image/x-icon">
@@ -54,9 +46,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
         </div>
 
         <div class="innerFlexContainer flexDirRow" style="width: 100%;">
-
             <div class="contentBox flexLeft">
-
                 <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
                     <p class="paragraph textAlignCenter">
                         QUANTUM MARKETS' strength lies in it’s deep Knowledge, Experience, Intel of the Physical Oil &
@@ -71,18 +61,17 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 </div>
     
                 <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img src="https://data.quantum-mar.com/resources/images/gas_tanker.png" alt="Image of a gas tanker" style="width: 700px; height: auto;">
+                    <img class="contentBoxImage" src="https://data.quantum-mar.com/resources/images/gas_tanker.png" alt="Image of a gas tanker" style="height: auto;">
                 </div>
             </div>
-
         </div>
+
 
         <div class="innerFlexContainer flexDirRow" style="width: 100%;">
 
             <div class="contentBox flexLeft">
-
                 <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img src="https://data.quantum-mar.com/resources/images/tankyLeft.jpg" alt="Image of a gas tanker" style="width: 700px; height: auto;">
+                    <img class="contentBoxImage" src="https://data.quantum-mar.com/resources/images/tankyLeft.jpg" alt="Image of a gas tanker" style="height: auto;">
                 </div>
 
                 <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
@@ -91,9 +80,9 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                         relevant hands-on experience incl working at Managerial Roles with Major Oil Companies & the World’s leading Oil Traders.
                     </p>
                 </div>
-    
-            </div>
+            </div> 
         </div>
+        
 
         <div class="innerFlexContainer flexDirRow" style="width: 100%;">
 
@@ -107,13 +96,10 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 </div>
     
                 <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img src="https://data.quantum-mar.com/resources/images/DontPayAttentionToTheNameOfThisImageMyFriend.jpg" alt="Image of a gas tanker" style="width: 700px; height: auto;">
+                    <img class="contentBoxImage" src="https://data.quantum-mar.com/resources/images/DontPayAttentionToTheNameOfThisImageMyFriend.jpg" alt="Image of a gas tanker" style="height: auto;">
                 </div>
             </div>
-
         </div>
-        
-
     </div>
 
 

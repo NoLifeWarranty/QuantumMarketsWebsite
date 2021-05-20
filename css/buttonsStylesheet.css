@@ -141,11 +141,11 @@
 }
 .leftButton:hover .buttonIcon {
   transition: 0.4s;
-  transform: translate3d(-12px, 0px, 0px);
+  transform: translate3d(12px, 0px, 0px);
   opacity: 0;
 }
 .leftButton:hover .buttonText {
-  transform: translate3d(-12px, 0px, 0px);
+  transform: translate3d(12px, 0px, 0px);
 }
 
 .rightButton:hover:after {
@@ -155,9 +155,9 @@
 }
 .rightButton:hover .buttonIcon {
   transition: 0.4s;
-  transform: translate3d(12px, 0px, 0px);
+  transform: translate3d(-12px, 0px, 0px);
   opacity: 0;
 }
 .rightButton:hover .buttonText {
-  transform: translate3d(12px, 0px, 0px);
+  transform: translate3d(-12px, 0px, 0px);
 }
