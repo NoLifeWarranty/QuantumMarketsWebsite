@@ -42,25 +42,25 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                     <p class="titleLarge accentColorY">Contact <br>QUANTUM MARKETS</p>
                     <p class="titleMedium">Contact QUANTUM MARKETS on the below E-mails and our Specialists in respective field will contact You to discuss how to best Assist & Support Your Enquiry & Demand:</p>
                     <br><br>
-                    <span class="titleSmall">Commercial Oil & Gas Tanker and Offshore Industry:</span>
+                    
                     <div class="innerFlexContainer flexDirRow" style="width: 100%;">
 
                         <div class=" flexLeft">
 
                             <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                                <p class="paragraph textAlignCenter">
+                                <p class="titleSmall textAlignCenter">
                                     <span class="titleSmall"></span>
                                     <br><br>
-                                    Oil Broking / Operational Support Enquiries on E-mail: <br> <span class="accentColorY">oil@quantum-mar.com</span>
+                                    Oil Broking / Oil Related Support Enquiries on E-mail: <br> <span class="accentColorY">oil@quantum-mar.com</span>
                                 </p>
                             </div>
 
                             <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                                <p class="paragraph textAlignCenter" >
+                                <p class="titleSmall textAlignCenter" >
 
 
                                     <br><br> 
-                                    Chartering & Sale & Purchase & Operational Support : <br><span class="accentColorY">ships@quantum-mar.com</span></p>
+                                    Ship Chartering / Sale & Purchase Brokerage Operational Support : <br><span class="accentColorY">ships@quantum-mar.com</span></p>
                                 </p>
                                 </p>
                             </div>

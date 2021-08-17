@@ -50,7 +50,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
                     <p class="paragraph textAlignCenter">
                         QUANTUM MARKETS' strength lies in it’s deep Knowledge, Experience, Intel of the Physical Oil &
-                        Gas Markets and the knowledge and understanding of it’s stake-holders incl Shipping & Operations.
+                        Gas Markets coupled with the knowledge and understanding of it’s stake-holders incl Shipping & Operations.
                         <br><br>
                         This gives QUANTUM MARKETS a unique opprtunity to Tailor-Make the Support Strategy & Advise for
                         Clients from Sourcing (or Marketing) to Operation, Shipping & Claims.
@@ -91,7 +91,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
                     <p class="paragraph textAlignCenter">
                     QUANTUM MARKETS holds or take no propriatory positions itself but acts totally as arms-length Broker or Consultant
-                    (depending on the appointment) and acts in it’s Appointed Clients Best Interest under Laws of Agency ( UK & US Laws).
+                    (depending on the appointment) and acts in it’s Appointed Clients Best Interest under Laws of Agency.
                     </p>
                 </div>
     
