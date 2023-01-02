@@ -19,7 +19,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
     <script src="/javaScript/autoLoader.js"> </script>
 </head>
 
-<link rel="shortcut icon" href="https://data.quantum-mar.com/resources/images/logo_large.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://fra1.digitaloceanspaces.com/resources/images/logo_large.png" type="image/x-icon">
 <title>Home</title>
 
 <body>
@@ -31,7 +31,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 
     <div class="containerFlex flexDirColumn" style="min-height: 100%; min-width: 100%; margin-bottom: 250px;">
 
-        <div  class="innerFlexContainer" style="min-height: 800px; background-image: url('https://data.quantum-mar.com/resources/images/heroShip.png');" >
+        <div  class="innerFlexContainer" style="min-height: 800px; background-image: url('https://fra1.digitaloceanspaces.com/resources/images/heroShip.png');" >
             <div class="contentBoxTransparent">
                 <p class="accentColorY titleLarge textAlignCenter">
                     QUANTUM MARKETS
@@ -61,7 +61,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 </div>
     
                 <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img class="contentBoxImage" src="https://data.quantum-mar.com/resources/images/gas_tanker.png" alt="Image of a gas tanker" style="height: auto;">
+                    <img class="contentBoxImage" src="https://fra1.digitaloceanspaces.com/resources/images/gas_tanker.png" alt="Image of a gas tanker" style="height: auto;">
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 
             <div class="contentBox flexLeft">
                 <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img class="contentBoxImage" src="https://data.quantum-mar.com/resources/images/tankyLeft.jpg" alt="Image of a gas tanker" style="height: auto;">
+                    <img class="contentBoxImage" src="https://fra1.digitaloceanspaces.com/resources/images/tankyLeft.jpg" alt="Image of a gas tanker" style="height: auto;">
                 </div>
 
                 <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
@@ -96,7 +96,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 </div>
     
                 <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img class="contentBoxImage" src="https://data.quantum-mar.com/resources/images/DontPayAttentionToTheNameOfThisImageMyFriend.jpg" alt="Image of a gas tanker" style="height: auto;">
+                    <img class="contentBoxImage" src="https://fra1.digitaloceanspaces.com/resources/images/DontPayAttentionToTheNameOfThisImageMyFriend.jpg" alt="Image of a gas tanker" style="height: auto;">
                 </div>
             </div>
         </div>
