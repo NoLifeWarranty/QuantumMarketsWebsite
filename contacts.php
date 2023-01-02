@@ -24,7 +24,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 
 </head>
 
-<link rel="shortcut icon" href="https://fra1.digitaloceanspaces.com/resources/images/logo_large.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/logo_large.png" type="image/x-icon">
 <title>About</title>
 
 <body>
@@ -35,7 +35,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 
     <div class="containerFlex flexDirColumn" style="min-height: 100%; min-width: 100%; margin-bottom: 250px;">
 
-            <div class="innerFlexContainer" style="min-height: 1000px; background-image: url('https://fra1.digitaloceanspaces.com/resources/images/heroShip.png');" >
+            <div class="innerFlexContainer" style="min-height: 1000px; background-image: url('https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/heroShip.png');" >
 
                 <div class="contentBox">
 
