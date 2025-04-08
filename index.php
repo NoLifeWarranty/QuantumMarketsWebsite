@@ -22,7 +22,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 <link rel="shortcut icon" href="https://data.quantum-mar.com/resources/images/logo_large.png" type="image/x-icon">
 <title>Home</title>
 
-<body>
+<body class="">
 
     <!-- the navigation bar from essentials.html -->
     <div class="navBar" id="NavBar">
