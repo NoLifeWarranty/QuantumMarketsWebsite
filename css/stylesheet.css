@@ -31,20 +31,22 @@ https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp
 /*https://www.w3schools.com/css/css3_variables.asp*/
 :root{
 
+    --backGroundW: #ffffff;
+    --foreGroundW: #ffffff62;
+    --backGroundB: #ffffff;
+    --foreGroundB: #ffffff62;
     --accentColorN: #282d7f;
-    --accentColorY: #d0973d;
-    --accentColorC: #ae1f23;
-    --accentColorP: #7030A0;
-    --accentColorR: #555; 
-    --backgroundColor: #101317;
-    --lightBackgroundColor: #181818;
+    --accentColorR: #ae1f23;
+    --accentColorG: #555; 
+    --backgroundColor: #0000005d;
+    --lightBackgroundColor: #00000071;
     --foregroundColor: #efefef;
 }
 
 /*________ Setting basic values of the website ________*/
 body, html{
     font-family: Comforta-Regular;
-    background-color: #101317;
+    background-color: #3d3d3db2;
     color: #efefef;
     
     height: 100%;
@@ -53,7 +55,7 @@ body, html{
 
 }
 body{
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
 .bg {
@@ -78,7 +80,7 @@ https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp*/
     text-decoration: none;
 }
 
-/*________ Fots/Colors/Texts/Titles/Etc ________*/
+/*________ Fonts/Colors/Texts/Titles/Etc ________*/
 
 .textAlignCenter{
     text-align: center;

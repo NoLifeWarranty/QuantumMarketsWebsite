@@ -4,8 +4,40 @@
 * 2021 - 2021
 */
 
-.flexContainer{
+
+.video-container {
+    position:fixed;
+    min-height: 100%;
+    min-width: 100%;
+    margin-bottom: 250px;
+    overflow: hidden;
+}
+video.background-video {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.contentBoxTransparent {
     position: relative;
+    z-index: 1;
+}
+
+.backPicContainer{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    margin-bottom: 250px;
+    overflow: hidden;
+    flex-wrap:wrap;
+    
+}
+
+.flexContainer{
+    position:relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +52,6 @@
 }
 
 .innerFlexContainer{
-
 
     position: relative;
     display: flex;
@@ -53,6 +84,40 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+.backInnerFlexContainer{
+
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+
+    -webkit-mask-size: cover;
+    -webkit-mask-position: 100%;
+    -webkit-mask-repeat: repeat-x;
+
+    mask-size: cover;
+    mask-position: 100%;
+    mask-repeat: repeat-x;
+
+    /* Center and scale the image nicely */
+    background-position: 20%;
+    background-repeat: no-rerepeat;
+    background-size: contain;
+
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+
 
 .innerFlexContainerHero{
     width: 70%;
@@ -124,8 +189,27 @@
     padding: 15px;
 
     box-shadow: -2px 2px 0px var(--accentColorC);
-    background-color: #0a0c0f;
+    background-color: #0000005d;
 }
+
+.backgroundBox{
+
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0%;
+
+    width: 100%;
+
+    transition-duration: 0.1s;
+    
+    padding: 15px;
+
+    box-shadow: -2px 2px 0px var(--accentColorC);
+    background-color: #282c7f81;
+}
+
 @media(max-width: 1050px)
 {
     .contentBox{
@@ -144,6 +228,15 @@
         width: 450px;
     }
 }
+@media(max-width: 500)
+{
+    .contentBox{
+        width: 97%;
+    }
+    .contentBoxImage{
+        width: 200px;
+    }
+}
 .contentBoxTransparent{
     border-radius: 5px;
 
@@ -157,12 +250,12 @@
 .contentBoxTransparent:hover{
     box-shadow: -3px 3px 0px var(--accentColorN);
     transition-duration: 0.1s;
-    background-color: #0a0c0f; 
+    background-color: #282c7f81; 
 }
 .contentBox:hover{
     box-shadow: -3px 3px 0px var(--accentColorN);
     transition-duration: 0.1s;
-    background-color: #0a0c0f;
+    background-color: #282c7f81;
 }
 
 .applicationBoxSizing {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-<html land="en">
+<html lang="en">
 
 <head>
 <meta name="Quantum Markets" content="Quantum Markets LTD - ‘’Tailor-made Brokerage & Shipping – Trading – Operational
@@ -22,7 +22,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 <link rel="shortcut icon" href="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/logo_large.png" type="image/x-icon">
 <title>Home</title>
 
-<body>
+<body class="">
 
     <!-- the navigation bar from essentials.html -->
     <div class="navBar" id="NavBar">
