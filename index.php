@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-<html land="en">
+<html lang="en">
 
 <head>
 <meta name="Quantum Markets" content="Quantum Markets LTD - ‘’Tailor-made Brokerage & Shipping – Trading – Operational
