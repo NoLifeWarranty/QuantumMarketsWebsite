@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-
 <html lang="en">
 
 <head>
@@ -20,19 +18,32 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 </head>
 
 <link rel="shortcut icon" href="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/logo_large.png" type="image/x-icon">
-<title>Home</title>
+<title>Quantum Market</title>
 
-<body class="">
+
+<body>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- the navigation bar from essentials.html -->
     <div class="navBar" id="NavBar">
         
     </div>
 
-    <div class="containerFlex flexDirColumn" style="min-height: 100%; min-width: 100%; margin-bottom: 250px;">
+    <div class="video-container">
+        <video class="background-video" autoplay muted loop playsinline>
+            <source src="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/vids/tk_br_s.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
-        <div  class="innerFlexContainer" style="min-height: 800px; background-image: url('https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/heroShip.png');" >
-            <div class="contentBoxTransparent">
+    <div class="containerFlex" style="min-height: 100%; min-width: 100%; margin-bottom: 250px;">
+
+    <div class="innerFlexContainer" style="min-height: 800px;">
+
+        <div class="backgroundBox" style="width: 45%; align-items:center">
+            <div class="contentBox" style="margin: 0px; width:fit-content">
                 <p class="accentColorY titleLarge textAlignCenter">
                     QUANTUM MARKETS
                 </p>
@@ -40,72 +51,77 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                     QUANTUM MARKETS GROUP is a Specialized Broker & Support Company for Shipping, Trading, Operations & Claims
                     for Stake-Holders in the Oil & Gas Markets with an Emphasis on Supporting Clients in Developing & Emerging Markets.
                     <br><br>
-                    
                 </p>
             </div>
         </div>
-
-        <div class="innerFlexContainer flexDirRow" style="width: 100%;">
-            <div class="contentBox flexLeft">
-                <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
-                    <p class="paragraph textAlignCenter">
-                        QUANTUM MARKETS' strength lies in it’s deep Knowledge, Experience, Intel of the Physical Oil &
-                        Gas Markets coupled with the knowledge and understanding of it’s stake-holders incl Shipping & Operations.
-                        <br><br>
-                        This gives QUANTUM MARKETS a unique opprtunity to Tailor-Make the Support Strategy & Advise for
-                        Clients from Sourcing (or Marketing) to Operation, Shipping & Claims.
-                        <br><br>
-                        Price Risk Exposure Advise, Hedging Strategies & Implementation of same is available on a
-                        Customized Basis.
-                    </p>
-                </div>
+        </div>
     
-                <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img class="contentBoxImage" src="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/gas_tanker.png" alt="Image of a gas tanker" style="height: auto;">
-                </div>
-            </div>
-        </div>
 
-
-        <div class="innerFlexContainer flexDirRow" style="width: 100%;">
-
-            <div class="contentBox flexLeft">
-                <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img class="contentBoxImage" src="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/tankyLeft.jpg" alt="Image of a gas tanker" style="height: auto;">
-                </div>
-
-                <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
-                    <p class="paragraph textAlignCenter">
-                        We are Specialists in Oil, Gas Trading, and Operation & Ship Chartering. We have over 80 Year of combined
-                        relevant hands-on experience incl working at Managerial Roles with Major Oil Companies & the World’s leading Oil Traders.
-                    </p>
-                </div>
-            </div> 
-        </div>
+<div class="flexContainer backgroundBox" >
         
 
-        <div class="innerFlexContainer flexDirRow" style="width: 100%;">
+    <div class="innerFlexContainer flexDirRow" style="width: 100%;">
+        <div class="contentBox flexLeft">
+            <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
+                <p class="paragraph textAlignCenter">
+                    QUANTUM MARKETS' strength lies in it’s deep Knowledge, Experience, Intel of the Physical Oil &
+                    Gas Markets coupled with the knowledge and understanding of it’s stake-holders incl Shipping & Operations.
+                    <br><br>
+                    This gives QUANTUM MARKETS a unique opprtunity to Tailor-Make the Support Strategy & Advise for
+                    Clients from Sourcing (or Marketing) to Operation, Shipping & Claims.
+                    <br><br>
+                    Price Risk Exposure Advise, Hedging Strategies & Implementation of same is available on a
+                    Customized Basis.
+                </p>
+            </div>
 
-            <div class="contentBox flexLeft">
-
-                <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
-                    <p class="paragraph textAlignCenter">
-                    QUANTUM MARKETS holds or take no propriatory positions itself but acts totally as arms-length Broker or Consultant
-                    (depending on the appointment) and acts in it’s Appointed Clients Best Interest under Laws of Agency.
-                    </p>
-                </div>
-    
-                <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
-                    <img class="contentBoxImage" src="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/DontPayAttentionToTheNameOfThisImageMyFriend.jpg" alt="Image of a gas tanker" style="height: auto;">
-                </div>
+            <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
+                <img class="contentBoxImage" src="https://quantum-mar-images.fra1.digitaloceanspaces.com/resources/images/gas_tanker.png" alt="Image of a gas tanker" style="height: auto;">
             </div>
         </div>
     </div>
 
 
+    <div class="innerFlexContainer flexDirRow" style="width: 100%;">
+
+        <div class="contentBox flexLeft">
+            <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
+                <img class="contentBoxImage" src="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/oil_rig.jpg" alt="Image of a gas tanker" style="height: auto;">
+            </div>
+
+            <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
+                <p class="paragraph textAlignCenter">
+                    We are Specialists in Oil, Gas Trading, and Operation & Ship Chartering. We have over 80 Year of combined
+                    relevant hands-on experience incl working at Managerial Roles with Major Oil Companies & the World’s leading Oil Traders.
+                </p>
+            </div>
+        </div> 
+    </div>
     
+
+    <div class="innerFlexContainer flexDirRow" style="width: 100%;">
+
+        <div class="contentBox flexLeft">
+
+            <div class="flexLeft" style="width: 100%; height: 100%; padding: 15px; margin: 25px; align-self: center;">
+                <p class="paragraph textAlignCenter">
+                QUANTUM MARKETS holds or take no propriatory positions itself but acts totally as arms-length Broker or Consultant
+                (depending on the appointment) and acts in it’s Appointed Clients Best Interest under Laws of Agency.
+                </p>
+            </div>
+
+            <div class="flexRight" style="width: 100%; height: 100%; padding: 15px; margin: 25px;">
+                <img class="contentBoxImage" src="https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/STS.png" alt="Image of a gas tanker" style="height: auto;">
+            </div>
+        </div>
+    </div>
+        
+    </div>
     
-    
+    </div>
+
+    </div>
+
 </body>
 
 <footer>
@@ -113,6 +129,4 @@ Support for our Clients in Oil Trading & Tanker Industry’">
         <div class="socialsFooter" id="Footer"></div>
     </div>
 </footer>
-
-
 </html>
