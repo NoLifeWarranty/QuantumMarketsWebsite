@@ -56,11 +56,7 @@ Support for our Clients in Oil Trading & Tanker Industry’">
         </video>
     </div>
             <div class="backInnerFlexContainer" style=" background-image: url('https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/map2_aaaa.png');" >
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
->>>>>>> dev
+
 
                 <div class="contentBox">
 
