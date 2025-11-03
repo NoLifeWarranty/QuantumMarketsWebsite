@@ -41,13 +41,10 @@ Support for our Clients in Oil Trading & Tanker Industry’">
 <<<<<<< Updated upstream
     <div class="containerFlex flexDirColumn" style="min-height: 100%; min-width: 100%; margin-bottom: 250px;">
 
-<<<<<<< HEAD
+
             <div class="innerFlexContainer" style="min-height: 1000px; background-image: url('https://quantum-mar-images.fra1.cdn.digitaloceanspaces.com/resources/images/heroShip.png');" >
-=======
             <div class="innerFlexContainer" style="min-height: 1000px; background-image: url('https://data.quantum-mar.com/resources/images/heroShip.png');" >
-=======
-=======
->>>>>>> Stashed changes
+
     <div class="containerFlex flexDirColumn" style="min-height: 100%; min-width: 100%; margin-bottom: 250px; margin-top: 87px;">
     <div class="video-container">
         <video class="background-video" autoplay muted loop playsinline>
