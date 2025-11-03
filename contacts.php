@@ -37,8 +37,6 @@ Support for our Clients in Oil Trading & Tanker Industry’">
             Your browser does not support the video tag.
         </video>
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <div class="containerFlex flexDirColumn" style="min-height: 100%; min-width: 100%; margin-bottom: 250px;">
 
 
