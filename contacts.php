@@ -87,15 +87,15 @@ Support for our Clients in Oil Trading & Tanker Industry’">
                 </div>
 
             </div>
+    </div>
+
+
+</body>
             <footer>
                 <div class="socialsFooter">
                     <div class="socialsFooter" id="Footer"></div>
                 </div>
             </footer>
-    </div>
-
-
-</body>
 
 
 </html>
